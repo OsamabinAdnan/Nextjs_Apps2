@@ -4,6 +4,10 @@ A modern, responsive Body Mass Index (BMI) calculator built with Next.js, TypeSc
 
 ![BMI Calculator Screen shot](public/image.png)
 
+## Live Demo Link
+
+[BMI Calculator](https://bmi-calculator-osamabinadnan.vercel.app/)
+
 ## Features
 
 - 📊 Calculate BMI with height and weight inputs
