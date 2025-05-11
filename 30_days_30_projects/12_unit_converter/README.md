@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Unit Converter App
 
-## Getting Started
+A modern, responsive unit converter built with Next.js, TypeScript, and Tailwind CSS. Features a beautiful animated background and dark/light theme support.
 
-First, run the development server:
+![Unit Converter Preview](public/screenshot.png)
 
+## 🔴 Live Demo
+
+[Live Demo](Your_Live_Link_Here)
+
+## ✨ Features
+
+- 📏 Convert between multiple unit types:
+  - Length
+  - Weight
+  - Volume
+  - And more...
+- 🌓 Dark/Light theme support
+- 🎯 Real-time conversion
+- 📱 Fully responsive design
+- 🔔 Toast notifications for feedback
+- 💻 Modern, clean UI
+
+## 🛠️ Built With
+
+- [Next.js 14](https://nextjs.org/) - React Framework
+- [TypeScript](https://www.typescriptlang.org/) - For type safety
+- [Tailwind CSS](https://tailwindcss.com/) - For styling
+- [Shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [React Hot Toast](https://react-hot-toast.com/) - For notifications
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (18.x or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/osamabinadnan/unit-converter.git
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Select the input unit from the "From" dropdown
+2. Select the output unit from the "To" dropdown
+3. Enter the value you want to convert
+4. Click "Convert" to see the result
+5. Toggle between dark and light themes using the theme switch
 
-## Learn More
+## 🧱 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+unit-converter/
+├── app/                        # Next.js app directory
+├── components/                 # React components
+│   ├── ui/                     # UI components
+│   └── units.ts                # Unit conversion logic
+|   └── Unit-Converter.tsx      # Main app component
+├── lib/                        # Utility functions
+└── public/                     # Static assets
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Feel free to:
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## 🙏 Acknowledgments
+
+- [Shadcn/ui](https://ui.shadcn.com/) for beautiful UI components
+- [Next.js](https://nextjs.org/) team for the amazing framework
