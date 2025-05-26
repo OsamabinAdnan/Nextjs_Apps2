@@ -13,7 +13,7 @@ A modern, responsive HTML code previewer built with Next.js and GSAP animations.
 
 ## Screenshots
 
-![HTML Previewer](/public/screenshot.png)
+![HTML Previewer](public/screenshot.png)
 
 
 ## Getting Started
@@ -95,4 +95,4 @@ MIT License
 
 ## Contact
 
-**Osama bin Adnan**
+Made by **Osama bin Adnan**
