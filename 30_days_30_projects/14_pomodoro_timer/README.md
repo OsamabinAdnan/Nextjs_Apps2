@@ -25,7 +25,7 @@ A modern, user-friendly Pomodoro Timer built with Next.js and TypeScript, featur
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone [https://github.com/OsamabinAdnan/Nextjs_Apps2/tree/main/30_days_30_projects/14_pomodoro_timer]
 ```
 
 2. Install dependencies:
