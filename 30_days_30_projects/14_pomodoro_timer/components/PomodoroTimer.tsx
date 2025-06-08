@@ -136,8 +136,8 @@ export default function PomodoroTimer() {
         <Card className='w-full max-w-md p-6 shadow-lg rounded-lg'>
             <div className='flex flex-col items-center justify-center gap-6'>
                 {/* Header with title and description */}
-                <h1 className='text-4xl font-bold'>Pomodoro Timer</h1>
-                <p className='text-lg font-medium'>A timer for the Pomodoro Technique</p>
+                <h1 className='md:text-4xl text-2xl text-center font-bold'>Pomodoro Timer</h1>
+                <p className='md:text-lg text-sm text-center font-medium'>A timer for the Pomodoro Technique</p>
                 <div className='flex flex-col items-center gap-4'>
                     {/* Display current session (work or break) */}
                     {/* <div className='text-2xl font-medium'>
@@ -146,7 +146,7 @@ export default function PomodoroTimer() {
                         </span>
                     </div> */}
                     {/* Display formatted time */}
-                    <div className='text-8xl font-bold'>
+                    <div className='md:text-8xl text-5xl font-bold'>
                         {formatTime(state.currentTime)}
                     </div>
                 </div>
@@ -193,7 +193,7 @@ export default function PomodoroTimer() {
                     {/* AlertDialog for explaining the Pomodoro Technique */}
                     <AlertDialog>
                         <AlertDialogTrigger asChild>
-                            <Button variant="default">What is Pomodoro Technique</Button>
+                            <Button variant="default" className='text-sm'>Pomodoro Technique</Button>
                         </AlertDialogTrigger>
                         <AlertDialogContent className="w-full max-w-2xl p-4 md:p-6">
                             <AlertDialogHeader>
