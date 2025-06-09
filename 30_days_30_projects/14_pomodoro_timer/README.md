@@ -21,6 +21,10 @@ A modern, user-friendly Pomodoro Timer built with Next.js and TypeScript, featur
 - Tailwind CSS
 - Lucide Icons
 
+## Live Demo
+
+Link will be updated soon.
+
 ## Getting Started
 
 1. Clone the repository:
