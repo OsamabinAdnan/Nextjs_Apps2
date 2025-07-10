@@ -1,6 +1,6 @@
 # Movie Search App
 
-This is a Next.js app that allows users to search for movies using the OMDB API and view results in a card-based layout. The app fetches up to 25 pages of results for a given search term and displays them in a responsive grid.
+This is a Next.js app that allows users to search for movies using the OMDB API and view results in a card-based layout. 
 
 ## Local Host Image
 
@@ -56,7 +56,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 - `public/` — Static assets
 
 ## Customization
-- Change the default search term in `movies.tsx` or connect the search bar and results for a more dynamic experience.
 - Style components in `components/ui/` as needed.
 
 ## License
