@@ -2,7 +2,7 @@
 
 A modern, responsive web application built with Next.js that allows users to search and view GitHub profiles and repositories in an elegant interface.
 
-[GitHub Profile Viewer](/public/image.png)
+![GitHub Profile Viewer](./public/image.png)
 
 ## Features
 
